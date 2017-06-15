@@ -1,20 +1,49 @@
 # Command Lines
-$ echo typewhatever //prints typewhatver out single or double quotes work as well
-$ man echo// short for manual and takes an argument or another command to help out 
-$ CTRL + A, E, or U // moves around the line
-$ clear or CTRL + L // clears the screen
-$ CTRL + D // exits terminal
-$ sleep 10s, 10m, 10h, 10d // sleeps the terminal takes numbe and suffix
-$ info > file // redirects info to a file
-$ cat filename // displays file name in terminal
-$ info >> file // appends/adds info to file
-$ diff file1 file2 // compares two similar files, but not identical
-$ cat file1 >> cat file 2 > createNewFileName // for fun
-$ mkdir folderName // makes a new directory
-$ touch fileName // makes a new file
-$ man ./filename // displays information from file
-$ ls *.txt // list all info ending with .txt
-$ ls -l *.txt // list all info with date and time last modified
-$ ls -rtl //reversed time of modification
-$ ls -r // displays list in reverse
-$ .filename // . in front of file makes it hidden
+
+- $ echo typewhatever //prints typewhatver out single or double quotes work as well
+- $ man echo// short for manual and takes an argument or another command to help out 
+- $ CTRL + A, E, or U // moves around the line
+- $ clear or CTRL + L // clears the screen
+- $ CTRL + D // exits terminal
+- $ sleep 10s, 10m, 10h, 10d // sleeps the terminal takes numbe and suffix
+- $ info > file // redirects info to a file
+- $ cat filename // displays file name in terminal
+- $ info >> file // appends/adds info to file
+- $ diff file1 file2 // compares two similar files, but not identical
+- $ cat file1 >> cat file 2 > createNewFileName // for fun
+- $ mkdir folderName // makes a new directory
+- $ touch fileName // makes a new file
+- $ man ./filename // displays information from file
+- $ ls *.txt // list all files ending with .txt
+- $ ls s* // list all files starting with s
+- $ ls *ow* // list all files containing ow in name
+- $ ls -l *.txt // list all info with date and time last modified
+- $ ls -rtl // reversed time of modification
+- $ ls -r // displays list in reverse
+- $ ls -a // list all hidden files
+- $ .filename // . in front of file makes it hidden
+- $ mv test test_file.txt // renames test to test_file.txt
+- $ cp test_file.txt second_test.txt // makes a copy of the file
+- $ rm second_test.txt // removes the file
+- $ which commandName // lets us know if available to use
+- $ curl websiteURL // allows us to download from a URL
+- $ !! or !previousCommandsName // executes the previous commands 
+- $ CTRL + R commmandName // searches the command executed
+- $ head fileName // views the beginning of file
+- $ tail fileName // views the end of a file
+- $ wc fileName // word count displays lines, words, and bytes
+- $ less fileName // displays less lines of file info
+- $ less CTRL + F OR B // move up and down to display info
+- $ less fileName then /word // it search file for word
+- $ grep word fileName // finds the word in the file name
+- $ grewp world fileName | wc // piping the word count
+- $ ps aux // shows the process status ps aux | grep spring
+- $ kill -15 pID // kills the process status 
+- $ pkill -15 -f spring // kills pricesses with name spring
+- $ history // prints the history of commands in terminal
+- $ root // do more reserach
+- $ sudo // if not given permission to access files use sudo
+- $ pwd // print working directory shows the path of current directory
+- $ find . -name '*.txt' // searches all the directories with every file ending in .txt
+- $ mv foo/ bar/ //renames foo director to bar
+- $ rmdir directoryName // removes directory
