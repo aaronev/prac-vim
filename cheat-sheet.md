@@ -1,4 +1,4 @@
-# Command Lines
+# Terminal Commands Generally
 
 - $ echo typewhatever //prints typewhatver out single or double quotes work as well
 - $ man echo// short for manual and takes an argument or another command to help out 
@@ -47,3 +47,22 @@
 - $ find . -name '*.txt' // searches all the directories with every file ending in .txt
 - $ mv foo/ bar/ //renames foo director to bar
 - $ rmdir directoryName // removes directory
+
+# Bash Commands
+- $ env // gives you a list of assigned variables
+- $ variable=value echo $varialbe // assigning variables for commands
+- $ ./bashScriptFileName.sh // files ending in .sh could be executed remember to give path
+- $ aVariable='a value with spaces' // you can have spaces by using single quotes
+- $ aNewVar="double quotes inserts $aVariable" // this allows us to insert variables
+- $ $PATH // lets you know that path 
+- $ read var1 var2 var3 // asking user for input use this command
+- $ read -p 'Username: ' userVar // assingin a prompt
+- $ read -sp 'Password: ' passVar // silent prompt so others will not see password 
+- $ let a=5+4 or "a = 5 + 4" // allows us to use arithmetics
+- $ expr 5 + 4 // similar to let but doesn't need quotes or assings variables
+- $ a=$(($a + 4)) // is another way to do use math
+- $ echo ${#variableOrString} // returns the length of characters
+- $ if [condtion] then  <command> elif [condition] then <command> else <command> fi // if statements
+- $ test <conditions> // there is a test for bash 
+- $ while [<some test>] do <commands> done //bash has while loops look at loops.sh
+- $ function_name () {<commands>} // creating a function
